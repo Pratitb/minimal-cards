@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f7fa;
+}
+header{
+    padding: 1rem;
+}
+.card{
+    box-shadow: 0 10px 40px 0 rgba(62, 57, 107, 0.05), 0 2px 9px 0 rgba(62, 57, 107, 0.04);
+    border: none;
+    transition: all 0.3s ease-out;
+    position: relative;
+}
+.scale:hover{
+    transform: scaleY(1.15);
+}
+.scale:hover i::before{
+    transform: rotate(360deg);
+}
+.pencil i{
+    color: #00B5B8;
+}
+.pencil:hover{
+    background-color: #55efc4;
+}
+.pencil:hover i{
+    color: #000;
+}
+.smile i{
+    color: #ffa87d;
+}
+.smile:hover{
+    background-color: #81ecec;
+}
+.smile:hover i{
+    color: #000;
+}
+.map i{
+    color: #16d39a;
+}
+.map:hover{
+    background-color: #74b9ff;
+}
+.map:hover i{
+    color: #000;
+}
+.trophy i{
+    color: #ff7588;
+}
+.trophy:hover{
+    background-color: #a29bfe;
+}
+.trophy:hover i{
+    color: #000;
+}
+.smartphone:hover{
+    /* background-color: #00b894; */
+    border-bottom: 10px solid #00b894;
+}
+.desktop:hover{
+    /* background-color: #00cec9; */
+    border-bottom: 10px solid #00cec9;
+}
+.plane:hover{
+    /* background-color: #0984e3; */
+    border-bottom: 10px solid #0984e3;
+}
+.notebook:hover{
+    /* background-color: #6c5ce7; */
+    border-bottom: 10px solid #6c5ce7;
+}
+.speedometer:hover{
+    background-color: #ffeaa7;
+    transform: rotate(20deg);
+}
+.hourglass:hover{
+    background-color:#fab1a0;
+    transform: rotate(-20deg);
+}
+.graduation{
+    transition: all 0.9s ease-out;
+}
+.graduation:hover{
+    background-color: #ff7675;
+    transform: rotate(-360deg);
+}
+.game{
+    transition: all 0.9s ease-out;
+}
+.game:hover{
+    background-color: #fd79a8;
+    transform: rotate(360deg);
+}
+.badges{
+    transition: all 0.7s ease-out;
+}
+.badges:hover{
+    background:linear-gradient(to right, #FC5C7D, #6A82FB);
+    color: #fff;
+}
+.wallet{
+    transition: all 1s ease-out;
+}
+.wallet:hover{
+    background:linear-gradient(to right, #108dc7, #ef8e38);
+    color: #fff;
+}
+.printer{
+    transition: all 1s ease-out;
+}
+.printer:hover{
+    background: linear-gradient(to right, #11998e, #38ef7d);
+    color: #fff;
+}
+.globe{
+    transition: all 1s ease-out;
+}
+.globe:hover{
+    background: linear-gradient(to right, #3E5151, #DECBA4);
+    color: #fff;
+}
+
+
+
+p{
+    margin-bottom: 0rem;
+}
+i{
+    font-size: 2rem;
+}
+.number{
+    font-weight: 500;
+}
+.label{
+    font-weight: 300;
+}
